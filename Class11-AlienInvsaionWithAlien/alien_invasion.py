@@ -21,7 +21,6 @@ def run_game():
     ship = Ship(ai_settings, screen)
     # Make a group to store bullets in.
     bullets = Group()
-
     alien = Alien(ai_settings,screen)
     
     # Start the main loop for the game.
